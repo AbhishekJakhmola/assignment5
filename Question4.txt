@@ -1,0 +1,11 @@
+n=int(input("Enter your points "  ))
+if n>=1 and n<=50:
+    print("Sorry! No prize this time.")
+elif n>50 and n<=150:
+    print("Congratulations! You won a {}".format("Wooden Dog."))
+elif n>150 and n<=180:    
+    print("Congratulations! You won a {}".format("Book."))
+elif n>180 and n<=200:    
+    print("Congratulations! You won a {}".format("Chocolates."))
+else:
+    print("Enter a valid score please.")
