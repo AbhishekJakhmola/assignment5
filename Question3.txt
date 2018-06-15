@@ -1,0 +1,24 @@
+n=int(input("Enter the age of A in years "  ))
+m=int(input("Enter the age of B in years "  ))
+l=int(input("Enter the age of C in years "  ))
+if n>m:
+    if n>l:
+        print("A is oldest.")
+    elif n<l:
+        print("C is oldest.")
+elif n<m:
+    if m>l:
+        print("B is oldest.")
+    elif m<l:
+        print("C is oldest.")
+if n<m:
+    if n<l:
+        print("A is youngest.")
+    elif n>l:
+        print("C is youngest.")
+elif n>m:
+    if m<l:
+        print("B is youngest.")
+    elif m>l:
+        print("C is youngest.")
+
