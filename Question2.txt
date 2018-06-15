@@ -1,0 +1,6 @@
+n=int(input("Enter the length "  ))
+m=int(input("Enter the breadth "  ))
+if n == m:
+    print("It is a Square.")
+else:
+    print("It is a Rectangle.")
